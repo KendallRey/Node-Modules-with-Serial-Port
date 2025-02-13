@@ -54,7 +54,7 @@ const sendSMS = async () => {
   console.log('⌛ Waiting for message prompt...');
   await new Promise((resolve) => setTimeout(resolve, 1000)); // Short delay
 
-  await sendCommand('Hello, how are you? Greetings from admin\x1A'); // Send message + Ctrl+Z
+  await sendCommand('Hello, there\x1A'); // Send message + Ctrl+Z
   console.log(`✅ Message sent to ${PHONE_NUMBER}`);
 };
 

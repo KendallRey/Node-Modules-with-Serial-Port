@@ -2,7 +2,8 @@
   "name": "desktop-serial-connection",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npx ts-node src/index.ts"
+    "dev": "npx ts-node src/index.ts",
+    "gsm": "npx ts-node src/modules/gsm.ts"
   },
   "keywords": [],
   "author": "",
