@@ -1,4 +1,4 @@
-# Some Electronic Sensor run in Node with Serial Port
+# Some Electronic Modules run in Node with Serial Port
 Just a reference of code for when I need it... someday
 
 ## Pre-requisites
